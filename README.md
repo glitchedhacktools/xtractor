@@ -1,6 +1,8 @@
 # Glitched Xtractor
-[See it in English](https://github.com/glitchedhacktools/xtractor/tree/master#tutorial---english)
+[**Descarga / Download**](xtractor.zip)
+
 ## Tutorial - Español
+[See it in English](#tutorial---english)
 ### 1. Extracción de las strings
 ![Ventana principal](/screenshots/xtractor2.PNG)
 
