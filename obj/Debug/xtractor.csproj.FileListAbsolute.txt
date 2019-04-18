@@ -1,0 +1,15 @@
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\xtractor.csprojResolveAssemblyReference.cache
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\xtractor.Form1.resources
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\xtractor.Properties.Resources.resources
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\xtractor.csproj.GenerateResource.Cache
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\xtractor.csproj.CoreCompileInputs.cache
+D:\RH\PROGRAMAS\xtractor\xtractor\bin\Debug\Glitched Xtractor.exe.config
+D:\RH\PROGRAMAS\xtractor\xtractor\bin\Debug\Glitched Xtractor.exe
+D:\RH\PROGRAMAS\xtractor\xtractor\bin\Debug\Glitched Xtractor.pdb
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\Glitched Xtractor.exe
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\Glitched Xtractor.pdb
+D:\RH\PROGRAMAS\xtractor\xtractor\bin\Debug\Glitched Xtractor.exe.manifest
+D:\RH\PROGRAMAS\xtractor\xtractor\bin\Debug\Glitched Xtractor.application
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\Glitched Xtractor.TrustInfo.xml
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\Glitched Xtractor.exe.manifest
+D:\RH\PROGRAMAS\xtractor\xtractor\obj\Debug\Glitched Xtractor.application
