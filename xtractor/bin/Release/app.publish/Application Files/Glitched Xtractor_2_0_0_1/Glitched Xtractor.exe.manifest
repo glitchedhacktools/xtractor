@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Glitched Xtractor.exe" version="2.0.0.1" publicKeyToken="6ec9aef78f100abd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icono.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Glitched Xtractor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Glitched Xtractor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opciones del manifiesto UAC
+             Si quiere cambiar el nivel del Control de cuentas de usuario de Windows reemplace el 
+             nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Especificar el elemento requestedExecutionLevel deshabilitará la virtualización de archivos y registros. 
+            Quite este elemento si la aplicación necesita esta virtualización para la compatibilidad
+            con versiones anteriores.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Glitched Xtractor.exe" size="75176">
+      <assemblyIdentity name="Glitched Xtractor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gCDJTxyZWT6CFL5YCZ/YcBTOeejnrH+p/ozc3QOJYfo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Glitched Xtractor.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icono.ico" size="26901">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1rGIVOuyknCagxQk9UaavRwPgt/03S6XfRbAI+31fHI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Una lista de las versiones de Windows en la que se ha probado esta aplicación y
+           con la que se ha diseñado para que trabaje. Quite la marca de comentario de los elementos adecuados y Windows seleccionará 
+           automáticamente el entorno más compatible. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=BENJA\benja" issuerKeyHash="54d40d66fd8ac1cba4ae41c4331ed241cd533c8a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oRucSd7ZMnu6QtzcjD6hU2ooPnbQ84vvemecQGhPMSs=</DigestValue></Reference></SignedInfo><SignatureValue>u4Q81WV5JiqwyjvxBdjYHhmkllg9GYxxtzx5S11qUgUcTPwRce3KUsqRN/mvkyeht6bgMJ4NzJIbijj7QmOlPOmLtkN0CBOqAH7xr2jdhg5nLDPAg/PF3aTxSKURniTRKdNieRTNoAeUl/evAi95TLJ7snLIELTocrx8i5xjDac=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vZUaryUx9FErWIPaK2HCkUW3SDONbFJmfS2inNdeKDdsGROs/7D+/L0r5DIk/9+i86Smmn7jU4y5zEK+md7ge8t/eBBYITtu3R5X3bu81xXIXzYN6Dp7FHO/yE2AcURxGtiMNRzO4tBl02m8pdiViUcspS35D4LYzydUH0mhN70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2b314f68409c677aef8bf3d0763e286a53a13e8cdcdc42ba7b32d9de499c1ba1" Description="" Url=""><as:assemblyIdentity name="Glitched Xtractor.exe" version="2.0.0.1" publicKeyToken="6ec9aef78f100abd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BENJA\benja</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UW1W58InrkIw+HWYIcjTFkMEjs62YxWLwQqrkqWzvjs=</DigestValue></Reference></SignedInfo><SignatureValue>YrE7YsRlRWxsJ/O0SB+SxBJUxHp9eksCY+NkdQnSaiF7uMd5hyaxSDgmceOFr+IIz5LcgvQ620raMYLBXwNZAgLatto34gdR6619UgXjqiW8fSIsBT6yNCSXcOiNuh0mfdO4i9hzudREagrCdpk0ozCcC3HPfp6Py84t29vXTP4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vZUaryUx9FErWIPaK2HCkUW3SDONbFJmfS2inNdeKDdsGROs/7D+/L0r5DIk/9+i86Smmn7jU4y5zEK+md7ge8t/eBBYITtu3R5X3bu81xXIXzYN6Dp7FHO/yE2AcURxGtiMNRzO4tBl02m8pdiViUcspS35D4LYzydUH0mhN70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQHP5f1RhsoaJFlCOmMjOU8jANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQgBFAE4ASgBBAFwAYgBlAG4AagBhMB4XDTE4MDcxNjIzMTgyM1oXDTE5MDcxNzA1MTgyM1owITEfMB0GA1UEAx4WAEIARQBOAEoAQQBcAGIAZQBuAGoAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvZUaryUx9FErWIPaK2HCkUW3SDONbFJmfS2inNdeKDdsGROs/7D+/L0r5DIk/9+i86Smmn7jU4y5zEK+md7ge8t/eBBYITtu3R5X3bu81xXIXzYN6Dp7FHO/yE2AcURxGtiMNRzO4tBl02m8pdiViUcspS35D4LYzydUH0mhN70CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBi4FfBNRctEShVBiRzOG07iiQuzgr4nV4jNxwUJP2YYBcF54kZdJNpqOUEXXbj1hasuuWy48Pbb6Txt4umeDLpPlZVGGfnzOJNnj0/srtZG+7RlkWCtIKPJ1BJwD4QYcRxh051fq+KZ55A+yCypDAovdN6lZI/eM29H/P1bFOy5w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
